@@ -36,4 +36,4 @@ for nested loop: use forloop
 function rectangle (xy)
 return x*y
 
-rectangle = widthxlength
+rectangle = width/length
