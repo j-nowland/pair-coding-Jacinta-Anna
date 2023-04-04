@@ -32,3 +32,8 @@ parameter: arrays
 declare new array, which is an empty array
 
 for nested loop: use forloop
+
+function rectangle (xy)
+return x*y
+
+rectangle = widthxlength
