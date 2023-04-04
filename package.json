@@ -2,8 +2,9 @@
   "name": "pair-coding-jacinta-anna",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/paircoding.js",
   "scripts": {
+    "dev": "nodemon paircoding.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
