@@ -38,7 +38,20 @@
 
 // Exercise 3
 // Write a function that calculates an area of a rectangule
-function rectangleArea(a,b){
-    return (a*b)
+// function rectangleArea(a,b){
+//     return (a*b)
+// }
+// console.log(rectangleArea(2,4))
+
+// Exercise 4
+// Create a function to reverse an array 
+// ex. revArr([1,2,3,4]) => [4,3,2,1]
+function revArray (arr){
+    newArr=[]
+    for (let i= arr.length -1; i> -1; i--){
+        newArr.push(arr[i])
 }
-console.log(rectangleArea(2,4))
+return newArr
+}
+
+console.log (revArray([1,2,3,4]))
