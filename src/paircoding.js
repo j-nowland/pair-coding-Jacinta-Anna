@@ -54,4 +54,4 @@ function revArray (arr){
 return newArr
 }
 
-console.log (revArray([1,2,3,4]))
+console.log (revArray([1,2,3,4]));
