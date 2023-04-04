@@ -3,7 +3,7 @@
 // console.log("somethingelse")
 // console.log("test")
 
-//Excercise 1
+//Exercise 1
 //Creat e a function that takes an array of numbersand strings and return a new array without strings.
 //ex. myNewArray ([1, 2, 'Ali', 4, 5, 'Kahwaji']) => [1,2,4,5]
 //SOLUTION:
@@ -14,24 +14,31 @@
 
 
 
-//Excercise 2
+//Exercise 2
 //Create a function that takes an array of arrays (2-d array) with numbers and returns new array with the 
 //largest numbers of each.
 //ex. arrayOfArrays([[1,2,3], [4,5,6], [20,30,35]]) => [3, 6, 100]
 
 
 
-function arrayOfArrays (arr){           //passed the parameter arr
-    let newArray = []                   //created new array that will hold the output
-    for (let i=0; i<arr.length; i++) {
-    let largest = arr[i][0]             //set up the benchmark to compare
-        for (let j=0; j<arr[i].length; j++){
-            if (arr[i][j]>largest){
-                largest = arr [i][j]
-            }
-        }
-        newArray.push(largest)
-    }
-    return newArray
+// function arrayOfArrays (arr){                       //passed the parameter arr
+//     let newArray = []                               //created new array that will hold the output
+//     for (let i=0; i<arr.length; i++) {
+//     let largest = arr[i][0]                         //set up the benchmark to compare
+//         for (let j=0; j<arr[i].length; j++){
+//             if (arr[i][j]>largest){
+//                 largest = arr [i][j]
+//             }
+//         }
+//         newArray.push(largest)
+//     }
+//     return newArray
+// }
+// console.log (arrayOfArrays([[1,2,3], [4,5,6], [20,30,35]]))
+
+// Exercise 3
+// Write a function that calculates an area of a rectangule
+function rectangleArea(a,b){
+    return (a*b)
 }
-console.log (arrayOfArrays([[1,2,3], [4,5,6], [20,30,35]]))
+console.log(rectangleArea(2,4))
